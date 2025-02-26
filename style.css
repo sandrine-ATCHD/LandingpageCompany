@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Geometos Neue';
+    src: url('/font/Fontspring-DEMO-geometos_neue_black.otf') format('opentype');
+    font-weight: 900; /* Assuming 'Black' is a very bold weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometos Neue';
+    src: url('/font/Fontspring-DEMO-geometos_neue_light.otf') format('opentype');
+    font-weight: 300; /* Assuming 'Light' is a light weight */
+    font-style: normal;
+}
+
+
+
+
+.overlay {
+  position: absolute;
+  top: -90%;
+  right: 0;
+  
+  width: 100%;
+  height: 220%;
+  background: rgba(255, 255, 255, 0.05); /* Très faible opacité en blanc */
+  clip-path: polygon(100% 0%, 100% 100%, 50% 100%);
+}
+
+.overlay2 {
+  position: absolute;
+  top: -70%; /* Ajusté pour que la superposition soit cohérente */
+  right: 0;
+  
+  width: 80%; /* Plus petit que le premier */
+  height: 200%;
+  background: rgba(255, 255, 255, 0.2); /* Opacité plus forte en blanc */
+  clip-path: polygon(100% 0%, 100% 100%, 50% 100%);
+}
+
+.overlay3 {
+  position: absolute;
+  top: -50%; /* Ajusté pour que les hypothénuses soient parallèles */
+  right: 0;
+  
+  width: 60%; /* Plus petit que le deuxième */
+  height: 180%;
+  background: rgba(255, 255, 255, 0.3); /* Opacité encore plus forte en blanc */
+  clip-path: polygon(100% 0%, 100% 100%, 50% 100%);
+}
+

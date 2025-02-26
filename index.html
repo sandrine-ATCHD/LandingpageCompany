@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compagny</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  
+
+</head>
+<body>
+
+    <div id="sidebar"  class=" fixed top-0 right-0 h-screen w-16 bg-black flex flex-col items-center pt-4 pb-8 shadow-lg  ">
+
+        <button class="text-white focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mt-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        <nav class="flex flex-col items-center justify-center h-screen space-y-8">
+
+            <!-- Menu Hamburger -->
+           
+          
+            <!-- Social Icons -->
+            <ul class="flex flex-col items-center space-y-4">
+              <li>
+                <a href="https://www.pinterest.com" target="_blank" class="flex items-center justify-center w-10 h-10 text-white hover:bg-gray-800 rounded-full transition-colors duration-300">
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com" target="_blank" class="flex items-center justify-center w-10 h-10 text-white hover:bg-gray-800 rounded-full transition-colors duration-300">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com" target="_blank" class="flex items-center justify-center w-10 h-10 text-white hover:bg-gray-800 rounded-full transition-colors duration-300">
+                  <i class="fab fa-instagram text-xl"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com" target="_blank" class="flex items-center justify-center w-10 h-10 text-white hover:bg-gray-800 rounded-full transition-colors duration-300">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com" target="_blank" class="flex items-center justify-center w-10 h-10 text-white hover:bg-gray-800 rounded-full transition-colors duration-300">
+                  <i class="fab fa-twitter text-xl"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          
+                </div>
+
+
+                <nav class="flex mt-5 items-center justify-between p-4 text-black ">
+                    <!-- Logo Section -->
+                    <div class="ml-12 logo">
+                        <p class="text-xl font-semibold">Company</p>
+                        <!-- <div class=" absolute inset-0 ">
+                            <img src="" alt="">
+                        </div> -->
+                    </div>
+                
+                    <!-- Navigation Links -->
+                    <div class="link flex space-x-8 mr-25">
+                        <ul class="flex space-x-20">
+                            <li><a href="Home" class="hover:text-gray-400">Home</a></li>
+                            <li><a href="Service" class="hover:text-gray-400">Service</a></li>
+                            <li><a href="Portfolio" class="hover:text-gray-400">Portfolio</a></li>
+                            <li><a href="Contact us" class="hover:text-gray-400">Contact us</a></li>
+                        </ul>
+                    </div>
+                 
+    </nav>
+
+    <div class="mt-12 justify-center items-center text-white image-container overflow-hidden relative">
+    
+      
+      <img class="ml-16 mr-35 w-281 h-110" src="asset/Meeting.jpg" alt="personne faisant un meeting">
+      
+      <div class="ml-16 mr-35 w-281 h-110 absolute inset-0 bg-gray-800 opacity-50"></div>
+      <!-- Trois effets de flou -->
+      <div class="ml-16 mr-33 overlay"></div>
+      <div class="ml-16 mr-33 overlay2"></div>
+      <div class="ml-20 mr-33 overlay3"></div>
+      
+      <div class="absolute inset-0 flex flex-col justify-center items-center text-center">
+          <h2 class="text-white text-6xl font-bold">MEETING POINT</h2>
+          <p class="ml-20 text-xs mr-20 pl-85 pr-85">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur at unde sunt laborum optio, n
+              esciunt nostrum ansimi fuga fugit perferendis nam minus voluptas iste obcaecati, vero asperiores,
+              a doloremque nulla.
+          </p>
+          <button class="bg-black rounded-full w-30 h-8 px-4 py-2 mt-4 text-xs justify-center items-center text-center hover:bg-gray-800 duration-300">
+              <a href="">Learn More</a>
+          </button>
+      </div>
+  
+      <div>
+          <a class="absolute inset-0 flex flex-col text-black mt-94 justify-center text-center" href="">www.yourCompany.com</a>
+      </div>
+      
+      <!-- Flèche droite -->
+      
+  </div>
+  
+
+    <div class="bouton flex justify-center items-center space-x-5 mt-10">
+        <div class="w-2.5 h-2.5 bg-gray-800 rounded-full hover:bg-black"></div>
+        <div class="w-2.5 h-2.5 bg-gray-800 rounded-full hover:bg-black"></div>
+        <div class="w-2.5 h-2.5 bg-gray-800 rounded-full hover:bg-black"></div>
+        <div class="w-2.5 h-2.5 bg-gray-800 rounded-full hover:bg-black"></div>
+
+    </div>
+    <!-- <script>
+      var sidebar = document.getElementById('sidebar');
+      sidebar.addEventListener('click', function(){
+        sidebar.classList.toggle('hidden');
+      });
+    </script> -->
+  
+
+    
+</body>
+</html>
